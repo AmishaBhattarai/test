@@ -1,0 +1,49 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.clear{clear: both;}
+.headertop{width:100%; height:17px; background:#090909 }
+body{background: #f4f4f4;}
+.container{width:960px; height: 1000px; margin: 0px auto; }
+/*header css*/
+.header1{width: 960px; height: 138px; border-bottom: 1px solid #c0c0c0;}
+.logo{height: 138px; width: 190px;  float: left;}
+.logo img{margin-top: 21px;}
+.menu{width: 770px; height: 138px; float: left;}
+.menu p{text-align: right;  margin-top: 22px; color: #999898;}
+.menu ul{text-align: right; margin-top: 30px;}
+.menu ul li {display: inline; margin-left: 34px; }
+.menu ul li a {text-decoration: none; color: #fe9b00; font-size: 12px;}
+.menu ul li a:hover{color: black;}
+#nm{margin-left: 0px;}
+#active{ color: black;}
+/*header css end*/
+/*slider css*/
+.slider{border-bottom: 1px solid #c0c0c0;}
+.slider{width: 100%; height: 380px;  background: linear-gradient(to right,#fe9b00, #e35400);margin-top: 20px;}
+.sliderl{width: 493px; height: 380px;  float: left;}
+.sliderR{width: 467px; height: 380px;  float: left; position: relative; }
+.slider .sliderImage{position:absolute; bottom: 0px; right: 0px;}
+.sliderl h1{font-size: 80px; color:white; line-height:0.9; margin-left: 20px;margin-top:20px ; }
+.sliderfoot{height: 44px; width: 443px; background-color: black; margin-top: 37px; margin-left: 20px; padding: 15px;}
+.firstbox{color: #6f6e6e; float: left; margin-right: 60px;}
+.secondbox{color: #fe9b00;} 
+.secondbox img{line-height: 2px;}
+
+/*slider css*/
+/*box css*/
+.upperbox{width: 100%;  margin-top: 44px; background: red;}
+.box1,.box2, .box3{width: 286.66px;  float: left; }
+
+.box1 h2{border-bottom:  5px solid black ;}
+.box2{ margin-right: 50px ; margin-left: 50px;}
+
+.box1 h2 img{line-height: 1px; width: 20px;}
+.box2 h2{border-bottom:  5px solid black ;}
+.box2 h2 img{line-height: 1px; width: 20px;}
+.box3 h2{border-bottom:  5px solid black ;}
+.box3 h2 img{line-height: 1px; width: 20px;}  
+/*box css end*/ 
+.downbox{ background-color: skyblue; margin-top: 44px; height: auto; width: 100%;}
+.box4,.box5,.box6,.box7{width: 215px;  margin-top: 44px; float:left}
+   .box4{ margin-right: 32px;}
+   .box5{ margin-right: 32px;}
+   .box6{ margin-right: 32px;}  
